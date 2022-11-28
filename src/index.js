@@ -86,4 +86,8 @@ contactInfoHead.textContent = "Contact";
 contactInfoPara[0].textContent = "123 Way 456 Street Somewhere, USA";
 contactInfoPara[1].textContent = "1 (888) 888-8888";
 contactInfoPara[2].textContent = "sales@greatidea.io";
-
+footerA.textContent = "Copyright Great Idea! 2021";
+for (const nav of navLinks) {
+  nav.classList.add("italic");
+}
+footerA.classList.add("bold");
