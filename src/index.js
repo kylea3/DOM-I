@@ -59,7 +59,7 @@ navLinks[2].textContent = "Vision";
 navLinks[3].textContent = "Features";
 navLinks[4].textContent = "About";
 navLinks[5].textContent = "Contact";
-headline.textContent = "DOM Is awesome"
+headline.textContent = "DOM Is Awesome"
 button1.textContent = "Get Started";
 textContentHeadlines[0].textContent = "Features";
 textContentHeadlines[1].textContent = "About";
@@ -91,3 +91,6 @@ for (const nav of navLinks) {
   nav.classList.add("italic");
 }
 footerA.classList.add("bold");
+logoImage.src = "http://localhost:9000/img/logo.png";
+ctaImage.src = "http://localhost:9000/img/cta.png";
+middleImage.src = "http://localhost:9000/img/accent.png";
