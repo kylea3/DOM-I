@@ -40,3 +40,15 @@ const siteContent = { // DO NOT CHANGE THIS OBJECT
 };
 
 console.log('project wired!')
+
+const navLinks = document.querySelectorAll('nav a');
+const logoImage = document.querySelector('#logo-img');
+const headline = document.querySelector('h1');
+const button1 = document.querySelector('button');
+const ctaImage = document.querySelector('#cta-img');
+const textContentHeadlines = document.querySelectorAll('.text-content h4');
+const textContentParas = document.querySelectorAll('.text-content p');
+const middleImage = document.querySelector('#middle-img');
+const contactInfo = document.querySelector('.contact');
+const footerA = document.querySelector('footer a');
+
